@@ -1,0 +1,24 @@
+Style/StringLiterals:
+  EnforcedStyle: double_quotes
+
+Style/Documentation:
+  Enabled: false
+
+Style/CaseIndentation:
+  IndentWhenRelativeTo: end
+  IndentOneStep: true
+
+Style/SpecialGlobalVars:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 100
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/AbcSize:
+  Max: 16
+
+Lint/EndAlignment:
+  AlignWith: variable
